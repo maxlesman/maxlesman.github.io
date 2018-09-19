@@ -1,0 +1,82 @@
+.vkl {background-color:FFFF00;
+text-decoration: none; 
+  color:#ffff; 
+  padding:0px 15px; 
+  font-family: arial; 
+  line-height:50px;
+  display: block; 
+  border-right: 1px solid #000000; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+.vkl:hover {background-color:FFFF00}
+.lul {
+  
+  list-style: none; 
+  padding-left: 0; 
+  margin-top:25px; 
+  background:#CE2CFB; 
+  height: 50px; 
+  position: fixed;
+  top: -25px;
+  left: 50%;
+  margin-left: -42%;
+}
+
+@media only screen and (max-width: 1367px) {
+  .lul {
+    margin-left: -46%;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  .lul {
+    margin-left: -49.5%;
+  }
+}
+
+.aa {
+  text-decoration: none; 
+  background:#FF9100; 
+  color:#fff; 
+  padding:0px 15px; 
+  font-family: arial; 
+  line-height:50px;
+  display: block; 
+  border-right: 1px solid #000000; 
+  -moz-transition: all 0.3s 0.01s ease; 
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+
+}
+.aa:hover {
+  background:#FBA345;
+}
+.lil { 
+  float:left; 
+  position:relative; 
+}
+     
+    
+    .lil > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    
+    .lil:hover > ul {
+        display:block; 
+        width:250px;     
+    }
+   .lil:hover > ul > li {
+        float:none; 
+    }
+	
+	
+nav{	
+margin: 0 auto;
+position: relative;
+width: 99%
+}

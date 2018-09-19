@@ -1,0 +1,71 @@
+body { 
+	background:black;
+	color:white;
+	
+}
+
+.foto{
+	transition: 1.0s;
+}
+
+.foto:hover{
+	transform: scale(1.5, 1.5);
+}
+
+.text{ 
+font-size: 20px;
+font-family: tahoma, arial;
+}
+
+h1, h2, h3{text-align:center; font-size: 30px;}
+
+
+.shapka {background-color:#313331;
+font-family:Lucida Console;}
+.tabl{font-size:125%;
+text-align: center;}
+
+.raw{color:#ff0000;
+text-align:center;
+font-size:120%;
+text-decoration:none;}
+.raw:hover{color:#fd5e53;}
+
+.SD{color:#007dff;
+text-align:center;
+font-size:120%;
+text-decoration:none;}
+.SD:hover{color:#77abff;}
+
+.nxt{color:#ffff00;
+text-align:center;
+font-size:120%;
+text-decoration:none;}
+.nxt:hover{color:#ffffbb}
+
+.live{color:#800080;
+text-align:center;
+font-size:120%;
+text-decoration:none;}
+.live:hover{color:#b000b0}
+
+.fon{background: url (img/luxfon.com-9932.jpg);}
+
+dt{color:#ccb951;
+font-weight: 700; }
+
+footer{
+font-size: 12px;
+font-weight:300;
+font-family:impact;	
+}
+
+
+footer{margin-top:200px;
+height:20%;
+font-size:23px;}
+
+.linkf{color:yellow;text-decoration:none;float:right;
+}
+.linkf:hover{color:orange;}
+.linkf:active{color:red;}

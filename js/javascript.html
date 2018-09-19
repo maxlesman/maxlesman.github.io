@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>java script(Лесман М.А.)</title>
+<link rel="stylesheet" type="text/css" href="js.css">
+<script src="java_script.js"></script>
+<script>
+function while1(){
+	alert('Сейчас будет продемонстрирован цикл while с шагом 1');
+var i = prompt('Введите число i для указания начального предела');
+var x = prompt('Введите число x для указания конечного предела');
+if (i < x) { 
+while (i <= x) {
+  document.write( "<br>i="+i );
+  i++;
+}
+}
+else {
+	alert ('Вы не правильно расставили пределы');
+}	
+}
+</script>
+</head>
+
+
+
+<body class="main">
+
+<marquee  style="font-size: 60px" behavior="alternate" scrollamount="8">java script</marquee>
+<p align="center"><img src="1024px-Unofficial_JavaScript_logo_2.svg.png" width="220" height="200"></p>
+<p align="center" class="text">
+Java script-мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией языка ECMAScript (стандарт ECMA-262).
+
+JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
+
+Основные архитектурные черты: динамическая типизация, слабая типизация, автоматическое управление памятью, прототипное программирование, функции как объекты первого класса.
+
+На JavaScript оказали влияние многие языки, при разработке была цель сделать язык похожим на Java, но при этом лёгким для использования непрограммистами. Языком JavaScript не владеет какая-либо компания или организация, что отличает его от ряда языков программирования, используемых в веб-разработке</p>
+<div bgcolor="white" id='feedback'></div>
+<center><button onclick="odnomer()" class="knopka">Одномерный массив</button>
+<button onclick="dvumer ()" class="knopka">Двумерный массив</button>
+<button onclick="while1 ()" class="knopka">Цикл While</button></center>
+<center><a onclick="javascript:history.back(); return false;" class="linkstyle">Назад</a></center>
+
+
+</body>

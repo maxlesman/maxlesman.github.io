@@ -1,0 +1,48 @@
+body {cursor: url("img/cur1054.cur"), progress}
+
+.h1{
+    color: "blue";
+    font-size: "25px";
+}
+.main{
+    background-color: black;
+	color: orange;
+    cursor: url("img/cur1054.cur");
+}
+
+.knopka{
+  cursor: url("img/cur1049.cur"), pointer;
+}
+
+.linkstyle{
+	text-decoration: none;
+    color: green;
+	cursor: url("img/cur1049.cur"), pointer;
+}
+
+.linkstyle:hover{
+	color:white;
+	font-size:20px;
+}
+
+
+.otstup{
+	margin-bottom:15px;
+}
+
+.zagolovok{
+	margin-left:224px;
+}
+
+.foto{
+	transition: 0.4s;
+}
+
+.foto:hover{
+	transform: scale(1.40, 1.40);
+}
+
+.text{
+	 cursor: url("img/cur1047.cur"), default;
+}
+	
